@@ -1,0 +1,17 @@
+ul{
+	display: flex;
+	align-items: center;
+}
+ul li{
+	
+	list-style-type:none;
+}
+ul button{
+	padding:0px;
+	border-radius: 10px;
+	margin: 5px;
+	outline-style:none;
+}
+li::after{
+	content: "\a";
+}
